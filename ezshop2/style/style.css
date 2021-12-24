@@ -1,0 +1,381 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none;
+}
+
+body {
+    background: #313131;
+}
+
+.nav {
+    background: #0C0C0C;
+    gap: 40px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 342px;
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.logo-navbar {
+    width: 187px;
+    height: 64px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    display: flex;
+    gap: 40px;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.d-flex {
+    margin-top: 25px;
+    margin-bottom: 35px;
+    width: 630px;
+    height: 50px;
+}
+
+.collapse {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #FFFFFF;
+    width: 190px;
+    height: 50px;
+    border: 1px solid #FFFFFF;
+}
+
+.btn:hover {
+    color: #ff000083;
+}
+
+/* --------------------carousel-------------------- */
+.my-carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    opacity: 1;
+    border: none;
+}
+
+.my-carousel-indicators {
+    display: flex;
+    gap: 25px;
+}
+
+.carousel-caption {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: -25%;
+    bottom: 5.25rem;
+    left: 20%;
+    padding-top: 1.25rem;
+    padding-bottom: 2.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-caption .btn {
+    margin-top: 140px;
+}
+
+.carousel-item h5 {
+    display: flex;
+    width: 624px;
+    height: 150px;
+    font-size: 48px;
+    line-height: 70px;
+    letter-spacing: 0.05em;
+}
+
+.carousel-item img {
+    width: 740px;
+    height: 600px;
+}
+
+/* -------------------img-card------------------- */
+
+p {
+    font-size: 24px;
+    line-height: 70px;
+    color: #313131;
+}
+
+span {
+    color: #313131;
+    font-size: 24px;
+    line-height: 70px;
+}
+
+.price-discount {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    color: #FFFFFF;
+    background: #313131;
+    font-size: 20px;
+    line-height: 70px;
+}
+
+/* -------------------img-card------------------- */
+
+
+
+/* ----------------card---------------- */
+
+.section-card {
+    display: flex;
+    gap: 30px;
+    margin-top: 35px;
+    color: white;
+}
+
+.title-h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
+
+.card-title {
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    margin-top: -97px;
+}
+
+
+
+.card-price {
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-top: -26px;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+    height: 50px;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    margin-left: 546px;
+    margin-top: 60px;
+}
+
+.btns:hover {
+    color: #ff000083;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.section {
+    margin-top: 70px;
+}
+
+.section__cards {
+    margin-top: 75px;
+}
+
+/* ----------------card---------------- */
+.game__content {
+    display: flex;
+    margin-top: 164px;
+
+}
+
+.item__content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 65px;
+    color: #FFFFFF;
+}
+
+.logo__ps {
+    width: 270px;
+    height: 71px;
+}
+
+.btns__play {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+    height: 50px;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    margin-top: 70px;
+}
+
+.console {
+    margin-top: -346px;
+    margin-left: 480px;
+    width: 700px;
+    height: 350px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+/* --------------------------- */
+.footer {
+
+    margin-top: 70px;
+    background: #0C0C0C;
+}
+
+.logo-navbars {
+    width: 187px;
+    height: 64px;
+    margin-right: 143px;
+}
+
+.navbars {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2.5rem;
+}
+
+.d-flex {
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    width: 520px;
+    height: 50px;
+}
+
+.input-p {
+    color: #fff;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.nav__img {
+    display: flex;
+    gap: 15px;
+    margin-left: 50px;
+}
+
+.nav-img {
+    width: 50px;
+    height: 50px;
+}
+
+.ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 50px;
+}
+
+.ul__link {
+    color: #FFFFFF;
+}
+
+dl,
+ol,
+ul {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+
+
+/* -----------------xbox-------------------- */
+.contents__inner {
+    width: 1920px;
+    height: 500px;
+}
+
+.xbox {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    margin-top: 75px;
+}
+
+
+.xbox__item {
+    margin-left: 335px;
+}
+
+
+h3 {
+    font-size: 48px;
+    line-height: 65px;
+
+}
+
+.xbox__text {
+    width: 454px;
+    height: 65px;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+.logo__xbox {
+    width: 1920px;
+    height: 500px;
+}
+
+.btns__xbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    border: 1px solid #313131;
+    margin-top: 70px;
+}
