@@ -13,7 +13,7 @@
 
 <body>
   <!-- ---------NAVitem---------------- -->
-  <ul class="nav ">
+  <ul class="nav">
     <li class="nav-item">
       <a class="nav-link active" aria-current="page" href="#">eng/ru</a>
     </li>
@@ -56,9 +56,13 @@
               Cell Phones&Tablets
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">Xiaomi</a></li>
+              <li><a class="dropdown-item" href="#">Apple</a></li>
+              <li><a class="dropdown-item" href="#">Samsung</a></li>
+              <li><a class="dropdown-item" href="#">Huawei</a></li>
+              <li><a class="dropdown-item" href="#">BQ</a></li>
+              <li><a class="dropdown-item" href="#">Nokia</a></li>
+              <li><a class="dropdown-item" href="#">Inoi</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -122,41 +126,72 @@
   </div>
   <!-- -----------CAROUSEL-------------- -->
 
-  <!-- ----------card-imgtop--------------- -->
+  <!-- -----------PRODUCT-CARDS----------- -->
   <section class="cards">
     <div class="container">
-      <div class="cards__content">
-        <div class="cards__item-1">
-          <span class="price-discount">-57%</span>
-          <img class="cards__item-img1" src="img/card1.png" alt="">
-          <p>Suunto SS050143000</p>
-          <span>70$</span>
+      <div class="cards__wrapper">
+
+        <div class="cards__item  cards__item--large" style="background-image: url('img/card1.png');">
+          <div class="cards__price-discount">
+            -57%
+          </div>
+          <div class="cards__info-box">
+            <h4 class="cards__title">
+              Suunto SS050143000
+            </h4>
+            <p class="cards__price">
+              70$
+            </p>
+          </div>
         </div>
 
-        <div class="cards__item-2">
-          <span class="price-discount">-30%</span>
-          <img class="cards__item-img2" src="img/card2.png" alt="">
-          <p>Airpods 2.1</p>
-          <span>95$</span>
+        <div class="cards__item  cards__item--long" style="background-image: url('img/card2.png');">
+          <div class="cards__price-discount">
+            -30%
+          </div>
+          <div class="cards__info-box">
+            <h4 class="cards__title">
+              Airpods 2.1
+            </h4>
+            <p class="cards__price">
+              95$
+            </p>
+          </div>
         </div>
-        <div class="cards__item-3">
-          <img class="cards__item-img" src="img/card3.png" alt="">
-          <p>Xiaomi Mi Power Bank 2s 10000</p>
-          <span>9$</span>
-          <span class="price-discount">-20%</span>
+
+        <div class="cards__item" style="background-image: url('img/powerbank.png');">
+          <div class="cards__info-box">
+            <h4 class="cards__title">
+              Xiaomi Mi Power Bank 2s 10000
+            </h4>
+            <p class="cards__price">
+              9$
+            </p>
+          </div>
+          <div class="cards__price-discount">
+            -20%
+          </div>
         </div>
-        <div class="cards__item-4">
-          <img class="cards__item-img" src="img/card4.png" alt="">
-          <p>Remax RP-W1 White</p>
-          <span>11$</span>
-          <span class="price-discount">-10%</span>
+
+        <div class="cards__item" style="background-image: url('img/card4.png');">
+          <div class="cards__info-box">
+            <h4 class="cards__title">
+              Remax RP-W1 White
+            </h4>
+            <p class="cards__price">
+              11$
+            </p>
+          </div>
+          <div class="cards__price-discount">
+            -10%
+          </div>
         </div>
-        <!-- <a class="btns" href="#">LEARN MORE</a> -->
+
       </div>
     </div>
-
   </section>
-  <!-- ----------card-imgtop--------------- -->
+  <!-- -----------/ PRODUCT-CARDS----------- -->
+
 
   <!-- ----------------card---------------- -->
   <section class="section">
@@ -303,6 +338,8 @@
 
   <!-- ----------------card4---------------- -->
 
+  <!-- ----------------FOOTER---------------- -->
+
   <footer class="footer">
     <div class="container">
       <nav class="navbars navbars-light ">
@@ -312,9 +349,9 @@
           <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
         <div class="nav__img">
-          <img class="nav-img" src="img/telega.png" alt="">
-          <img class="nav-img" src="img/facebook-logo.png" alt="">
-          <img class="nav-img" src="img/logo-instagram.png" alt="">
+          <a href="https://web.telegram.org/"><img class="nav-img" src="img/telega.png" alt=""></a>
+          <a href="https://www.facebook.com/"><img class="nav-img" src="img/facebook-logo.png" alt=""></a>
+          <a href="https://www.instagram.com/"><img class="nav-img" src="img/logo-instagram.png" alt=""></a>
         </div>
       </nav>
       <ul class="ul">
@@ -324,6 +361,7 @@
       </ul>
     </div>
   </footer>
+  <!-- ----------------FOOTER---------------- -->
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
