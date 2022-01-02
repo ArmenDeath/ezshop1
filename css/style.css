@@ -379,6 +379,11 @@ h1 {
   color: #FFFFFF;
 }
 
+.dropdown-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
 dl,
 ol,
 ul {
