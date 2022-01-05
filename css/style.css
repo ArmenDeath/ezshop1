@@ -104,6 +104,26 @@ body {
   border: 0;
 }
 
+.dropdown-item-title {
+  font-size: 16px;
+  line-height: 70px;
+  text-align: center;
+
+}
+
+.dropdown-item-title a {
+  color: #FFFFFF;
+}
+
+.dropdown-item {
+  text-align: center;
+
+}
+
+.dropdown-item-link {
+  color: #FFFFFF;
+}
+
 /* --------------------carousel-------------------- */
 .carousel {
   margin-bottom: 50px;
@@ -377,6 +397,11 @@ h1 {
 
 .ul__link {
   color: #FFFFFF;
+}
+
+.dropdown-wrapper {
+  display: flex;
+  justify-content: space-between;
 }
 
 dl,
