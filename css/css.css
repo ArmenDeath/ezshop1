@@ -363,9 +363,7 @@ ul {
 
 
 /* -----------------xbox-------------------- */
-.contents__inner {
-    width: 1920px;
-}
+
 
 .xbox {
     display: flex;
@@ -374,16 +372,9 @@ ul {
     margin-top: 75px;
 }
 
-
-.xbox__item {
-    margin-left: 335px;
-}
-
-
 h3 {
     font-size: 48px;
     line-height: 65px;
-
 }
 
 .xbox__text {
@@ -397,6 +388,7 @@ h3 {
 .logo__xbox {
     width: 1920px;
     height: 500px;
+    position: absolute;
 }
 
 .btns__xbox {
@@ -410,4 +402,9 @@ h3 {
     color: #FFFFFF;
     border: 1px solid #313131;
     margin-top: 70px;
+}
+
+.ul__slider{
+    display: flex;
+
 }

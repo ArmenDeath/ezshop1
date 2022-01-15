@@ -106,9 +106,8 @@ body {
 
 .dropdown-item-title {
   font-size: 16px;
-  line-height: 70px;
-  text-align: center;
 
+  text-align: center;
 }
 
 .dropdown-item-title a {
@@ -410,3 +409,10 @@ ul {
   margin-top: 0;
   margin-bottom: 0rem;
 }
+
+ol,
+ul {
+  padding-left: 0;
+}
+
+/* --------------------------- */
